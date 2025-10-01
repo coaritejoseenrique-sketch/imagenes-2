@@ -1,0 +1,55 @@
+/* Estilos para elementos con clase .titulo */
+.titulo {
+    color: blue;
+    font-size: 24px;
+}
+
+/* Estilos para todos los elementos con clase .texto */
+.texto {
+    color: gray;
+    font-family: Arial;
+}
+
+/* Estilo aplicado solo al elemento con id especial */
+#especial {
+    color: red;
+    font-weight: bold;
+}
+
+/* Estilo único para el header */
+#header {
+    background-color: lightblue;
+    padding: 20px;
+}
+
+ /* CONTENEDOR GENERAL */
+.contenedor {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 30px auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 900px; /* más ancho para que entren 3 imágenes */
+}
+
+/* GALERÍA DE VARIAS IMÁGENES */
+.galeria {
+    display: flex;              /* pone en fila */
+    justify-content: center;    /* centra horizontal */
+    gap: 20px;                  /* espacio entre imágenes */
+    flex-wrap: wrap;            /* si no caben, se acomodan abajo */
+}
+
+.item {
+    text-align: center; /* centra descripción con la imagen */
+}
+
+/* ESTILOS PARA LAS IMÁGENES */
+.galeria img {
+    width: 200px;       /* tamaño fijo para que todas sean iguales */
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
